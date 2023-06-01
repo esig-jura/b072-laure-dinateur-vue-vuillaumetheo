@@ -1,0 +1,6 @@
+@media screen and (min-width: 910px) {
+  main {
+    max-width: calc(910px - 5%);
+    margin: 0 auto; /* 0 haut/bas & auto gauche/droite */
+  }
+}
