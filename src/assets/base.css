@@ -1,0 +1,59 @@
+/************************
+******** GENERAL ********
+************************/
+
+/* Palette des couleurs :  https://coolors.co/e7e9eb-fdfffc-2ec4b6-e71d36-011627 */
+
+/* Importation des polices Web Google */
+@import url('https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800');
+
+/* Couleur et polices de base du site */
+body {
+  background-color: #fdfffc;
+  color: #011627;
+  font-family: 'Open Sans', sans-serif; /* Ne pas oublier de terminer avec une police générique */
+  font-size: 1rem; /* = 1 x 16px */
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Police des titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+  font-family: 'Changa One', cursive;
+  font-weight: 400; /* Pas oublier de préciser l'épaisseur */
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 1em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.75em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #e71d36;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%; /* Empêche le débordement des images */
+  height: auto; /* Règle problème des tailles saisies en HTML */
+  width: auto;
+}
+
+main {
+  margin: 0 5%;
+}
